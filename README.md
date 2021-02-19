@@ -1,1 +1,1 @@
-# webTest
+pytest+selenium自动化测试，同时生成测试报告
