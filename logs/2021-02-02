@@ -1,0 +1,506 @@
+INFO	2021-02-02 13:55:25,645	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 13:55:26,772	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 13:55:26,812	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 13:55:26,812	[test_ml.py:25]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 13:55:27,977	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 13:55:28,018	[webpage.py:95]	获取文本：实验信息
+INFO	2021-02-02 13:55:28,019	[test_ml.py:31]	<re.Match object; span=(0, 4), match='实验信息'>
+INFO	2021-02-02 13:55:29,109	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 13:55:30,237	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 13:55:31,327	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 13:55:31,376	[webpage.py:95]	获取文本：实验名称是必须的
+INFO	2021-02-02 13:55:31,377	[test_ml.py:39]	<re.Match object; span=(5, 7), match='必须'>
+INFO	2021-02-02 13:55:32,160	[webpage.py:73]	输入文本：Ctest
+INFO	2021-02-02 13:55:34,099	[webpage.py:73]	输入文本：测试
+INFO	2021-02-02 13:55:36,181	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 13:55:37,341	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 13:55:38,447	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 13:55:39,583	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 13:55:40,687	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 13:55:41,827	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 13:55:42,896	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 13:55:44,061	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编 辑")]')
+INFO	2021-02-02 13:55:44,780	[webpage.py:73]	输入文本：testupdate
+INFO	2021-02-02 13:55:46,485	[webpage.py:73]	输入文本：测试修改
+INFO	2021-02-02 13:55:48,677	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 13:55:52,670	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 13:55:53,987	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 13:55:54,074	[webpage.py:95]	获取文本：算法管理
+INFO	2021-02-02 13:55:54,075	[test_ml.py:98]	<re.Match object; span=(0, 4), match='算法管理'>
+INFO	2021-02-02 13:55:55,377	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 13:55:56,048	[webpage.py:73]	输入文本：test
+INFO	2021-02-02 13:55:58,155	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 13:55:58,203	[ml.py:59]	算法标识是必须的
+INFO	2021-02-02 13:55:58,227	[ml.py:59]	算法名称是必须的
+INFO	2021-02-02 13:55:58,247	[ml.py:59]	算法框架是必须的
+INFO	2021-02-02 13:55:58,266	[ml.py:59]	算法分类是必须的
+INFO	2021-02-02 13:55:58,285	[ml.py:59]	算法主类是必须的
+INFO	2021-02-02 13:55:58,306	[ml.py:61]	规格参数应为json格式
+INFO	2021-02-02 13:55:59,416	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 13:56:00,618	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 13:56:00,660	[webpage.py:95]	获取文本：算法信息
+INFO	2021-02-02 13:56:00,660	[test_ml.py:111]	<re.Match object; span=(0, 4), match='算法信息'>
+INFO	2021-02-02 13:56:01,316	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 13:56:03,008	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 13:56:05,138	[webpage.py:86]	点击元素：('xpath', '//input[@placeholder="请选择算法框架"]')
+INFO	2021-02-02 13:56:11,791	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"tensorflow")]')
+INFO	2021-02-02 13:56:12,876	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/span[1]/form[1]/div[4]/div[1]/span[1]/div[1]/div[1]/span[1]/span[1]/i[1]')
+INFO	2021-02-02 13:56:16,141	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 13:56:16,755	[webpage.py:80]	上传文件的本地地址为：C:\Users\wangzhaoxian\Downloads\1.csv
+INFO	2021-02-02 13:56:19,519	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 13:56:21,279	[webpage.py:73]	输入文本：[]
+INFO	2021-02-02 13:56:23,151	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 13:56:25,321	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 13:56:26,086	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 13:56:28,217	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"重 置")]')
+INFO	2021-02-02 13:56:28,264	[webpage.py:95]	获取文本：
+INFO	2021-02-02 13:56:28,265	[test_ml.py:129]	
+INFO	2021-02-02 13:56:28,933	[webpage.py:73]	输入文本：1
+INFO	2021-02-02 13:56:31,092	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 13:56:32,222	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 13:56:33,288	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 13:56:34,420	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 13:56:47,497	[webpage.py:95]	获取文本：暂无数据
+INFO	2021-02-02 13:56:48,177	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 13:56:50,289	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 13:56:51,365	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 13:56:52,448	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 13:56:53,559	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 13:56:57,808	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编辑")]')
+INFO	2021-02-02 13:56:58,944	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 13:57:00,134	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编辑")]')
+INFO	2021-02-02 13:57:00,921	[webpage.py:73]	输入文本：zmjtestupdate
+INFO	2021-02-02 13:57:03,070	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 13:57:04,175	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 13:57:08,320	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"删除")]')
+INFO	2021-02-02 13:57:09,420	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 13:57:10,516	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"删除")]')
+INFO	2021-02-02 13:57:11,614	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 13:57:12,710	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 13:57:22,758	[webpage.py:95]	获取文本：暂无数据
+INFO	2021-02-02 14:00:32,569	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:00:33,672	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 14:00:33,716	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:00:33,717	[test_ml.py:25]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 14:00:34,923	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:00:34,974	[webpage.py:95]	获取文本：实验信息
+INFO	2021-02-02 14:00:34,974	[test_ml.py:31]	<re.Match object; span=(0, 4), match='实验信息'>
+INFO	2021-02-02 14:00:36,119	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:00:37,191	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:00:38,265	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:00:38,302	[webpage.py:95]	获取文本：实验名称是必须的
+INFO	2021-02-02 14:00:38,302	[test_ml.py:39]	<re.Match object; span=(5, 7), match='必须'>
+INFO	2021-02-02 14:00:38,982	[webpage.py:73]	输入文本：Ctest
+INFO	2021-02-02 14:00:40,639	[webpage.py:73]	输入文本：测试
+INFO	2021-02-02 14:00:42,689	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:00:43,856	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:00:45,288	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:00:46,383	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:00:47,456	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:00:48,501	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:00:49,572	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:00:50,727	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编 辑")]')
+INFO	2021-02-02 14:00:51,444	[webpage.py:73]	输入文本：testupdate
+INFO	2021-02-02 14:00:53,218	[webpage.py:73]	输入文本：测试修改
+INFO	2021-02-02 14:00:55,321	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:00:56,375	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:00:57,435	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:00:58,512	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"打开")]')
+INFO	2021-02-02 14:00:59,721	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编排")]/span')
+INFO	2021-02-02 14:01:01,813	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:01:02,893	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:01:03,977	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 14:01:05,048	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:01:06,118	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 14:01:08,194	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:01:08,254	[test_ml.py:84]	实验名称：['A1', 'testupdate']
+INFO	2021-02-02 14:01:10,528	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:01:11,883	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 14:01:12,140	[webpage.py:95]	获取文本：算法管理
+INFO	2021-02-02 14:01:12,142	[test_ml.py:98]	<re.Match object; span=(0, 4), match='算法管理'>
+INFO	2021-02-02 14:01:13,646	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 14:01:14,345	[webpage.py:73]	输入文本：test
+INFO	2021-02-02 14:01:16,451	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:01:16,484	[ml.py:59]	算法标识是必须的
+INFO	2021-02-02 14:01:16,502	[ml.py:59]	算法名称是必须的
+INFO	2021-02-02 14:01:16,522	[ml.py:59]	算法框架是必须的
+INFO	2021-02-02 14:01:16,544	[ml.py:59]	算法分类是必须的
+INFO	2021-02-02 14:01:16,565	[ml.py:59]	算法主类是必须的
+INFO	2021-02-02 14:01:16,593	[ml.py:61]	规格参数应为json格式
+INFO	2021-02-02 14:01:17,750	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:01:18,887	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 14:01:18,924	[webpage.py:95]	获取文本：算法信息
+INFO	2021-02-02 14:01:18,924	[test_ml.py:111]	<re.Match object; span=(0, 4), match='算法信息'>
+INFO	2021-02-02 14:01:19,621	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 14:01:21,327	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 14:01:23,453	[webpage.py:86]	点击元素：('xpath', '//input[@placeholder="请选择算法框架"]')
+INFO	2021-02-02 14:01:24,546	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"tensorflow")]')
+INFO	2021-02-02 14:01:25,644	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/span[1]/form[1]/div[4]/div[1]/span[1]/div[1]/div[1]/span[1]/span[1]/i[1]')
+INFO	2021-02-02 14:01:28,849	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 14:01:29,417	[webpage.py:80]	上传文件的本地地址为：C:\Users\wangzhaoxian\Downloads\1.csv
+INFO	2021-02-02 14:01:32,122	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 14:01:33,812	[webpage.py:73]	输入文本：[]
+INFO	2021-02-02 14:01:35,748	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 14:01:37,856	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:01:38,795	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 14:01:40,898	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"重 置")]')
+INFO	2021-02-02 14:01:40,929	[webpage.py:95]	获取文本：
+INFO	2021-02-02 14:01:40,929	[test_ml.py:129]	
+INFO	2021-02-02 14:01:41,533	[webpage.py:73]	输入文本：1
+INFO	2021-02-02 14:01:43,637	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 14:01:44,737	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 14:01:45,829	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 14:01:46,915	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 14:02:00,114	[webpage.py:95]	获取文本：暂无数据
+INFO	2021-02-02 14:02:01,007	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 14:02:03,208	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 14:02:04,353	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 14:02:05,471	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 14:02:06,533	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 14:02:10,930	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编辑")]')
+INFO	2021-02-02 14:02:12,185	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:02:13,717	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编辑")]')
+INFO	2021-02-02 14:02:14,715	[webpage.py:73]	输入文本：zmjtestupdate
+INFO	2021-02-02 14:02:16,868	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:02:18,244	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 14:02:22,401	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"删除")]')
+INFO	2021-02-02 14:47:53,235	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:47:53,876	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 14:47:55,511	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 14:47:57,590	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 14:47:58,644	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 14:47:58,670	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:47:58,670	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 14:47:59,735	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:47:59,756	[webpage.py:95]	获取文本：实验信息
+INFO	2021-02-02 14:47:59,756	[test_ml.py:34]	<re.Match object; span=(0, 4), match='实验信息'>
+INFO	2021-02-02 14:48:00,810	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:48:01,888	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:48:02,947	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:48:02,997	[webpage.py:95]	获取文本：实验名称是必须的
+INFO	2021-02-02 14:48:02,998	[test_ml.py:42]	<re.Match object; span=(5, 7), match='必须'>
+INFO	2021-02-02 14:48:03,603	[webpage.py:73]	输入文本：Ctest
+INFO	2021-02-02 14:48:05,224	[webpage.py:73]	输入文本：测试
+INFO	2021-02-02 14:48:07,302	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:48:08,391	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:48:09,450	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:48:10,509	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:48:11,585	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:48:12,656	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:48:13,760	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:48:14,849	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编 辑")]')
+INFO	2021-02-02 14:48:15,521	[webpage.py:73]	输入文本：testupdate
+INFO	2021-02-02 14:48:17,154	[webpage.py:73]	输入文本：测试修改
+INFO	2021-02-02 14:48:19,265	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:48:20,305	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:48:21,381	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:48:22,458	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"打开")]')
+INFO	2021-02-02 14:48:23,684	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编排")]/span')
+INFO	2021-02-02 14:48:25,729	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:48:27,178	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:48:28,284	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 14:48:29,340	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:48:30,431	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 14:48:32,483	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:48:32,502	[test_ml.py:87]	实验名称：['A1']
+INFO	2021-02-02 14:48:32,762	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:48:33,826	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 14:48:33,953	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:48:33,953	[test_ml.py:101]	None
+INFO	2021-02-02 14:50:14,537	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:50:15,178	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 14:50:16,794	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 14:50:18,888	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 14:50:20,148	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 14:50:20,178	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:50:20,178	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 14:50:21,784	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:50:21,837	[webpage.py:95]	获取文本：实验信息
+INFO	2021-02-02 14:50:21,837	[test_ml.py:34]	<re.Match object; span=(0, 4), match='实验信息'>
+INFO	2021-02-02 14:50:22,895	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:50:23,940	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:50:25,021	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:50:25,054	[webpage.py:95]	获取文本：实验名称是必须的
+INFO	2021-02-02 14:50:25,055	[test_ml.py:42]	<re.Match object; span=(5, 7), match='必须'>
+INFO	2021-02-02 14:50:25,710	[webpage.py:73]	输入文本：Ctest
+INFO	2021-02-02 14:50:27,309	[webpage.py:73]	输入文本：测试
+INFO	2021-02-02 14:50:29,365	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:50:30,431	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:50:31,475	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:50:32,544	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:50:33,605	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:50:34,699	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:50:35,781	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:50:36,897	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编 辑")]')
+INFO	2021-02-02 14:50:37,548	[webpage.py:73]	输入文本：testupdate
+INFO	2021-02-02 14:50:39,155	[webpage.py:73]	输入文本：测试修改
+INFO	2021-02-02 14:50:41,192	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:50:42,265	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:50:43,337	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:50:44,432	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"打开")]')
+INFO	2021-02-02 14:50:45,701	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编排")]/span')
+INFO	2021-02-02 14:50:47,776	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:50:48,838	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:50:49,898	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 14:50:50,988	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:50:52,043	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 14:50:54,122	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:50:54,942	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:51:36,552	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:51:37,176	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 14:51:38,788	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 14:51:40,849	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 14:51:41,923	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 14:51:41,943	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:51:41,943	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 14:51:43,013	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:51:43,054	[webpage.py:95]	获取文本：实验信息
+INFO	2021-02-02 14:51:43,055	[test_ml.py:34]	<re.Match object; span=(0, 4), match='实验信息'>
+INFO	2021-02-02 14:51:44,100	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:51:45,223	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 14:51:46,282	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:51:46,325	[webpage.py:95]	获取文本：实验名称是必须的
+INFO	2021-02-02 14:51:46,325	[test_ml.py:42]	<re.Match object; span=(5, 7), match='必须'>
+INFO	2021-02-02 14:51:46,947	[webpage.py:73]	输入文本：Ctest
+INFO	2021-02-02 14:51:48,542	[webpage.py:73]	输入文本：测试
+INFO	2021-02-02 14:51:50,586	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:51:51,676	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:51:52,760	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:51:53,836	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:51:54,926	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 14:51:55,990	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:51:57,085	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 14:51:58,198	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编 辑")]')
+INFO	2021-02-02 14:51:58,840	[webpage.py:73]	输入文本：testupdate
+INFO	2021-02-02 14:52:00,438	[webpage.py:73]	输入文本：测试修改
+INFO	2021-02-02 14:52:02,471	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 14:52:03,965	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:52:05,056	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:52:06,134	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"打开")]')
+INFO	2021-02-02 14:52:07,195	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编排")]/span')
+INFO	2021-02-02 14:52:09,304	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:52:10,886	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:52:11,995	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 14:52:13,042	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 14:52:14,163	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 14:52:16,220	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 14:52:16,272	[test_ml.py:87]	实验名称：['A1']
+INFO	2021-02-02 14:52:16,569	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:52:16,622	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:52:16,622	[test_ml.py:100]	None
+INFO	2021-02-02 14:53:23,412	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:53:24,037	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 14:53:25,638	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 14:53:27,702	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 14:53:28,764	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 14:53:28,799	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:53:28,799	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 14:53:30,160	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:53:31,227	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 14:53:31,274	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:53:31,275	[test_ml.py:101]	None
+INFO	2021-02-02 14:59:45,004	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 14:59:45,672	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 14:59:47,290	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 14:59:49,357	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 14:59:50,417	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 14:59:50,442	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 14:59:50,442	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 15:00:40,345	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:00:40,979	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 15:00:42,606	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 15:00:44,672	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 15:00:45,830	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 15:00:45,852	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 15:00:45,853	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 15:00:46,092	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:00:47,199	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 15:00:47,223	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 15:00:47,223	[test_ml.py:101]	None
+INFO	2021-02-02 15:01:44,537	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:01:45,165	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 15:01:46,767	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 15:01:48,842	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 15:01:49,898	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 15:01:49,957	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 15:01:49,958	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 15:01:50,156	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:01:51,290	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 15:01:51,325	[webpage.py:95]	获取文本：算法管理
+INFO	2021-02-02 15:01:51,326	[test_ml.py:101]	<re.Match object; span=(0, 4), match='算法管理'>
+INFO	2021-02-02 15:01:52,436	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 15:01:53,045	[webpage.py:73]	输入文本：test
+INFO	2021-02-02 15:01:55,164	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:01:55,188	[ml.py:59]	算法标识是必须的
+INFO	2021-02-02 15:01:55,200	[ml.py:59]	算法名称是必须的
+INFO	2021-02-02 15:01:55,211	[ml.py:59]	算法框架是必须的
+INFO	2021-02-02 15:01:55,221	[ml.py:59]	算法分类是必须的
+INFO	2021-02-02 15:01:55,232	[ml.py:59]	算法主类是必须的
+INFO	2021-02-02 15:01:55,242	[ml.py:61]	规格参数应为json格式
+INFO	2021-02-02 15:01:56,304	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 15:01:57,429	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 15:01:57,455	[webpage.py:95]	获取文本：算法信息
+INFO	2021-02-02 15:01:57,455	[test_ml.py:114]	<re.Match object; span=(0, 4), match='算法信息'>
+INFO	2021-02-02 15:01:58,047	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:01:59,710	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:02:01,778	[webpage.py:86]	点击元素：('xpath', '//input[@placeholder="请选择算法框架"]')
+INFO	2021-02-02 15:02:02,871	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"tensorflow")]')
+INFO	2021-02-02 15:02:03,947	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/span[1]/form[1]/div[4]/div[1]/span[1]/div[1]/div[1]/span[1]/span[1]/i[1]')
+INFO	2021-02-02 15:02:07,103	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 15:02:07,663	[webpage.py:80]	上传文件的本地地址为：C:\Users\wangzhaoxian\Downloads\1.csv
+INFO	2021-02-02 15:02:10,294	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:02:11,963	[webpage.py:73]	输入文本：[]
+INFO	2021-02-02 15:02:13,625	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:02:15,694	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:02:16,306	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:02:18,381	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"重 置")]')
+INFO	2021-02-02 15:02:18,418	[webpage.py:95]	获取文本：
+INFO	2021-02-02 15:02:18,418	[test_ml.py:132]	
+INFO	2021-02-02 15:02:19,010	[webpage.py:73]	输入文本：1
+INFO	2021-02-02 15:02:21,135	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 15:02:22,227	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 15:02:23,286	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 15:02:24,373	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 15:02:37,418	[webpage.py:95]	获取文本：暂无数据
+INFO	2021-02-02 15:02:38,001	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:02:40,055	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 15:02:41,103	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 15:02:42,136	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 15:02:43,182	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 15:03:59,339	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:04:00,001	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 15:04:01,604	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 15:04:03,666	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 15:04:04,718	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 15:04:04,738	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 15:04:04,738	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 15:04:05,808	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 15:04:05,829	[webpage.py:95]	获取文本：实验信息
+INFO	2021-02-02 15:04:05,829	[test_ml.py:34]	<re.Match object; span=(0, 4), match='实验信息'>
+INFO	2021-02-02 15:04:06,884	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 15:04:07,928	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 15:04:09,022	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:04:09,051	[webpage.py:95]	获取文本：实验名称是必须的
+INFO	2021-02-02 15:04:09,051	[test_ml.py:42]	<re.Match object; span=(5, 7), match='必须'>
+INFO	2021-02-02 15:04:09,688	[webpage.py:73]	输入文本：Ctest
+INFO	2021-02-02 15:04:11,336	[webpage.py:73]	输入文本：测试
+INFO	2021-02-02 15:04:13,381	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:04:14,503	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:04:15,549	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:04:16,604	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 15:04:17,694	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 15:04:18,727	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:04:19,798	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 15:04:20,949	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编 辑")]')
+INFO	2021-02-02 15:04:21,651	[webpage.py:73]	输入文本：testupdate
+INFO	2021-02-02 15:04:23,321	[webpage.py:73]	输入文本：测试修改
+INFO	2021-02-02 15:04:25,416	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:04:26,453	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:04:27,538	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:04:28,647	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"打开")]')
+INFO	2021-02-02 15:04:29,716	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编排")]/span')
+INFO	2021-02-02 15:04:31,785	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:04:32,877	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 15:04:33,977	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 15:04:35,100	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 15:04:36,154	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 15:04:38,195	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:04:38,248	[test_ml.py:87]	实验名称：['A1']
+INFO	2021-02-02 15:04:38,504	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:04:39,561	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 15:04:39,666	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 15:04:39,666	[test_ml.py:101]	None
+INFO	2021-02-02 15:08:07,438	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:08:08,069	[webpage.py:73]	输入文本：wangzhaoxian
+INFO	2021-02-02 15:08:09,709	[webpage.py:73]	输入文本：123456
+INFO	2021-02-02 15:08:11,789	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"登录")]')
+INFO	2021-02-02 15:08:12,874	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/experiment"]')
+INFO	2021-02-02 15:08:12,894	[webpage.py:95]	获取文本：实验列表
+INFO	2021-02-02 15:08:12,894	[test_ml.py:28]	<re.Match object; span=(0, 4), match='实验列表'>
+INFO	2021-02-02 15:08:13,964	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 15:08:13,985	[webpage.py:95]	获取文本：实验信息
+INFO	2021-02-02 15:08:13,985	[test_ml.py:34]	<re.Match object; span=(0, 4), match='实验信息'>
+INFO	2021-02-02 15:08:15,041	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 15:08:16,082	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新增实验")]')
+INFO	2021-02-02 15:08:17,134	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:08:17,154	[webpage.py:95]	获取文本：实验名称是必须的
+INFO	2021-02-02 15:08:17,154	[test_ml.py:42]	<re.Match object; span=(5, 7), match='必须'>
+INFO	2021-02-02 15:08:17,790	[webpage.py:73]	输入文本：Ctest
+INFO	2021-02-02 15:08:19,389	[webpage.py:73]	输入文本：测试
+INFO	2021-02-02 15:08:21,421	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:08:22,480	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:08:23,526	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:08:24,598	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 15:08:25,644	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 15:08:26,717	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:08:27,790	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"Ctest")]')
+INFO	2021-02-02 15:08:28,867	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编 辑")]')
+INFO	2021-02-02 15:08:29,510	[webpage.py:73]	输入文本：testupdate
+INFO	2021-02-02 15:08:31,102	[webpage.py:73]	输入文本：测试修改
+INFO	2021-02-02 15:08:33,144	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:08:34,199	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:08:35,243	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:08:36,289	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"打开")]')
+INFO	2021-02-02 15:08:37,533	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编排")]/span')
+INFO	2021-02-02 15:08:39,651	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:08:40,708	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 15:08:41,803	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 15:08:42,841	[webpage.py:86]	点击元素：('xpath', '//div[contains(text(),"testupdate")] /../../following-sibling::div[1]/button/span[contains(text(),"删除")]')
+INFO	2021-02-02 15:08:43,885	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 15:08:45,942	[webpage.py:86]	点击元素：('xpath', '//li[contains(text(),"4")]')
+INFO	2021-02-02 15:08:45,964	[test_ml.py:87]	实验名称：['A1']
+INFO	2021-02-02 15:08:46,215	[webpage.py:34]	打开网页：machineLearningSystem
+INFO	2021-02-02 15:08:47,368	[webpage.py:86]	点击元素：('xpath', '//a[@href="#/calculation/index"]')
+INFO	2021-02-02 15:08:49,398	[webpage.py:95]	获取文本：算法管理
+INFO	2021-02-02 15:08:49,398	[test_ml.py:102]	<re.Match object; span=(0, 4), match='算法管理'>
+INFO	2021-02-02 15:08:50,504	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 15:08:51,163	[webpage.py:73]	输入文本：test
+INFO	2021-02-02 15:08:53,310	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:08:53,332	[ml.py:59]	算法标识是必须的
+INFO	2021-02-02 15:08:53,344	[ml.py:59]	算法名称是必须的
+INFO	2021-02-02 15:08:53,354	[ml.py:59]	算法框架是必须的
+INFO	2021-02-02 15:08:53,365	[ml.py:59]	算法分类是必须的
+INFO	2021-02-02 15:08:53,376	[ml.py:59]	算法主类是必须的
+INFO	2021-02-02 15:08:53,385	[ml.py:61]	规格参数应为json格式
+INFO	2021-02-02 15:08:54,450	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 15:08:55,540	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"新 建")]')
+INFO	2021-02-02 15:08:55,559	[webpage.py:95]	获取文本：算法信息
+INFO	2021-02-02 15:08:55,559	[test_ml.py:115]	<re.Match object; span=(0, 4), match='算法信息'>
+INFO	2021-02-02 15:08:56,175	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:08:57,786	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:08:59,868	[webpage.py:86]	点击元素：('xpath', '//input[@placeholder="请选择算法框架"]')
+INFO	2021-02-02 15:09:01,007	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"tensorflow")]')
+INFO	2021-02-02 15:09:02,096	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/span[1]/form[1]/div[4]/div[1]/span[1]/div[1]/div[1]/span[1]/span[1]/i[1]')
+INFO	2021-02-02 15:09:05,275	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 15:09:05,878	[webpage.py:80]	上传文件的本地地址为：C:\Users\wangzhaoxian\Downloads\1.csv
+INFO	2021-02-02 15:09:08,528	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:09:10,145	[webpage.py:73]	输入文本：[]
+INFO	2021-02-02 15:09:11,823	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:09:13,976	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:09:14,608	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:09:16,690	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"重 置")]')
+INFO	2021-02-02 15:09:16,706	[webpage.py:95]	获取文本：
+INFO	2021-02-02 15:09:16,706	[test_ml.py:133]	
+INFO	2021-02-02 15:09:17,273	[webpage.py:73]	输入文本：1
+INFO	2021-02-02 15:09:19,435	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 15:09:20,494	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 15:09:21,600	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 15:09:22,746	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 15:09:35,858	[webpage.py:95]	获取文本：暂无数据
+INFO	2021-02-02 15:09:36,455	[webpage.py:73]	输入文本：zmjtest
+INFO	2021-02-02 15:09:38,514	[webpage.py:86]	点击元素：('xpath', '//body/div[@id="app"]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/input[1]')
+INFO	2021-02-02 15:09:39,605	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"机器学习算法")]')
+INFO	2021-02-02 15:09:40,700	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"模型评估")]')
+INFO	2021-02-02 15:09:41,789	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 15:09:45,964	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编辑")]')
+INFO	2021-02-02 15:09:47,014	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取 消")]')
+INFO	2021-02-02 15:09:48,091	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"编辑")]')
+INFO	2021-02-02 15:09:48,726	[webpage.py:73]	输入文本：zmjtestupdate
+INFO	2021-02-02 15:09:50,811	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确 定")]')
+INFO	2021-02-02 15:09:51,893	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 15:09:55,953	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"删除")]')
+INFO	2021-02-02 15:09:57,060	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"取消")]')
+INFO	2021-02-02 15:09:58,157	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"删除")]')
+INFO	2021-02-02 15:09:59,203	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"确定")]')
+INFO	2021-02-02 15:10:00,253	[webpage.py:86]	点击元素：('xpath', '//span[contains(text(),"查 询")]')
+INFO	2021-02-02 15:10:10,298	[webpage.py:95]	获取文本：暂无数据
