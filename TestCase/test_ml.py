@@ -26,13 +26,13 @@ class TestMl:
         text = page.get_ele_text('通用', '页面名称')
         result = re.search('实验列表', text)
         log.info(result)
-        assert result
+        pytest.assume(result)
         # 测试新增页面取消按键
         page.click_ele('实验', '新增实验')
         text = page.get_ele_text('通用', '对话页面')
         result = re.search('实验信息', text)
         log.info(result)
-        assert result
+        pytest.assume(result)
         page.click_ele('通用', '取消')
         # 表单校验
         page.click_ele('实验', '新增实验')
@@ -40,14 +40,14 @@ class TestMl:
         text = page.get_ele_text('通用', '错误信息')
         result = re.search('必须', text)
         log.info(result)
-        assert result
+        pytest.assume(result)
         # 测试实验页面新增实验
         page.input_ele('实验', '实验命名', 'Ctest')
         page.input_ele('实验', '模型描述', '测试')
         page.click_ele('通用', '确定')
         page.click_ele('翻页', '第4页')
         result = page.exist_ele('实验', '测试')
-        assert result
+        pytest.assume(result)
         # 测试实验页面修改-取消
         page.click_ele('翻页', '第4页')
         page.click_ele('实验', '测试')
@@ -56,9 +56,9 @@ class TestMl:
         page.click_ele('翻页', '第4页')
         page.click_ele('实验', '测试')
         result = page.enable_ele('实验', '实验命名')
-        assert result is False
+        pytest.assume(result is False)
         result = page.enable_ele('实验', '模型描述')
-        assert result is False
+        pytest.assume(result is False)
         # 修改
         page.click_ele('实验', '编辑')
         page.input_ele('实验', '实验命名', 'testupdate')
@@ -66,7 +66,7 @@ class TestMl:
         page.click_ele('通用', '确定')
         page.click_ele('翻页', '第4页')
         result = page.exist_ele('实验', '修改后')
-        assert result
+        pytest.assume(result)
         # 测试打开
         page.click_ele('翻页', '第4页')
         page.click_ele('实验', '实验打开')
@@ -77,7 +77,7 @@ class TestMl:
         page.click_ele('实验', '删除')
         page.click_ele('通用', '撤销')
         result = page.exist_ele('实验', '修改后')
-        assert result
+        pytest.assume(result)
         # 测试删除-确认
         page.click_ele('实验', '删除')
         page.click_ele('通用', '确认')
@@ -89,7 +89,7 @@ class TestMl:
             result = False
         else:
             result = True
-        assert result
+        pytest.assume(result)
 
     def test_002(self, drivers):
         """test_002 测试算法页面"""
@@ -100,20 +100,20 @@ class TestMl:
         text = page.get_ele_text('通用', '页面名称')
         result = re.search('算法管理', text)
         log.info(result)
-        assert result
+        pytest.assume(result)
         # 新建算法-取消
         page.click_ele('算法', '新建')
         page.input_ele('算法', '规格参数', 'test')
         page.click_ele('通用', '确定')
         result = page.is_exist('通用', '错误信息')
-        assert result
+        pytest.assume(result)
         page.click_ele('通用', '取消')
         # 表单校验
         page.click_ele('算法', '新建')
         text = page.get_ele_text('通用', '对话页面')
         result = re.search('算法信息', text)
         log.info(result)
-        assert result
+        pytest.assume(result)
         page.input_ele('算法', '算法标识', 'zmjtest')
         page.input_ele('算法', '算法名称', 'zmjtest')
         page.click_ele('算法', '算法框架')
@@ -132,7 +132,7 @@ class TestMl:
         text = page.get_ele_text('算法', '查询算法名称')
         log.info(text)
         result = len(text) == 0
-        assert result
+        pytest.assume(result)
         # 查询-无结果
         page.input_ele('算法', '查询算法名称', '1')
         page.click_ele('算法', '所属分类')
@@ -142,7 +142,7 @@ class TestMl:
         sleep(3)
         text = page.get_search_table_result('算法', '结果表')
         result = re.search('暂无数据', text)
-        assert result
+        pytest.assume(result)
         # 查询-有结果-编辑
         page.input_ele('算法', '查询算法名称', 'zmjtest')
         page.click_ele('算法', '所属分类')
@@ -151,7 +151,7 @@ class TestMl:
         page.click_ele('算法', '查询')
         sleep(3)
         text = page.get_search_table_result('算法', '结果表')
-        assert text == 1
+        pytest.assume(text == 1)
         page.click_ele('算法', '编辑')
         page.click_ele('通用', '取消')
         page.click_ele('算法', '编辑')
@@ -167,7 +167,7 @@ class TestMl:
         page.click_ele('算法', '查询')
         text = page.get_search_table_result('算法', '结果表')
         result = re.search('暂无数据', text)
-        assert result
+        pytest.assume(result)
 
     # def test_003(self, drivers):
     #     """test_003 测试数据页面"""

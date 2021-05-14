@@ -3,7 +3,7 @@
 import configparser
 from config.conf import cm
 
-HOST = 'HOST'
+HOST = 'ML_URL'
 
 
 class ReadConfig(object):
